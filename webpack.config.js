@@ -14,7 +14,7 @@ module.exports = {
       { test: /\.css$/, loader: ['vue-style-loader', 'css-loader'] },
     ],
   },
-  plugins: [new VueloaderPlugin()],
+  plugins: [new VueLoaderPlugin()],
   resolve: {
     alias: {
       vue$: 'vue/dist/vue.esm.js',

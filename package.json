@@ -7,9 +7,24 @@
     "build": "webpack",
     "serve": "http-server ./public -p 9000 -c-1",
     "start": "npm run build && npm run serve"
-
   },
   "keywords": [],
   "author": "soregashi27",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/helper-compilation-targets": "^7.15.0",
+    "http-server": "^13.0.1",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
 }
