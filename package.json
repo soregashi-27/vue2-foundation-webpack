@@ -4,9 +4,12 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "serve": "http-server ./public -p 9000 -c-1",
+    "start": "npm run build && npm run serve"
+
   },
   "keywords": [],
-  "author": "",
+  "author": "soregashi27",
   "license": "ISC"
 }
