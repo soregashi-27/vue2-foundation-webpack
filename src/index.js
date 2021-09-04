@@ -3,6 +3,7 @@ import Vue from 'vue'
 
 import AnchorLink from './components/AnchorLink.vue'
 import EventButtons from './components/EventButtons.vue'
+import NumberGuess from './components/NumberGuess.vue'
 
 new Vue({
   el: '#app',
@@ -11,7 +12,8 @@ new Vue({
   },
   components: {
     AnchorLink,
-    EventButtons
+    EventButtons,
+    NumberGuess
   },
   methods: {
     onEventOne() {
