@@ -10,8 +10,23 @@
   <div id="app">
     <!-- <hello></hello> -->
 
-    <anchor-link href="https://github.com/soregashi-27" text="Link to Soregashi27's GitHub Page" :new-tab="false">
+    <anchor-link
+      href="https://github.com/soregashi-27"
+      text="Link to Soregashi27's GitHub Page"
+      :new-tab="false"
+    >
     </anchor-link>
+    <!-- ページ1 -->
+
+    <event-buttons
+      @event-one="onEventOne"
+      @event-two="onEventTwo"
+      @event-three="onEventThree"
+    >
+    </event-buttons>
+    <!-- ページ2 -->
+
+    <pre v-for="argument in arguments"> {{argument}} </pre>
   </div>
   <script src="/bundle.js"></script>
 </body>
