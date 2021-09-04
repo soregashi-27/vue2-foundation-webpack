@@ -23,7 +23,7 @@ new Vue({
       this.arguments = []
       this.rguments.push(argument)
     },
-    oneventThree(arg1, arg2) {
+    onEventThree(arg1, arg2) {
       this.arguments = []
       this.arguments.push(arg1)
       this.arguments.push(arg2)

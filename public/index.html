@@ -27,7 +27,17 @@
     <!-- ページ2 -->
     <pre v-for="argument in arguments"> {{argument}} </pre>
 
-    <number-guess></number-guess>
+
+    <h1>数を当ててみる</h1>
+    <number-guess
+      @start="onStart"
+      @collect="onCollect"
+      @lower="onLower"
+      @higher="onHigher"
+      @lose="onLose"
+    ></number-guess>
+    <p>{{message}}</p>
+    <p>残り：{{tryCountLeft}}回</p>
   </div>
   <script src="/bundle.js"></script>
 </body>
