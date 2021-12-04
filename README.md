@@ -1,3 +1,5 @@
+（gitbookを使いたい）
+
 # vue2-foundation-webpack
 Covering the basics of Vue.js 2 with components.
 
